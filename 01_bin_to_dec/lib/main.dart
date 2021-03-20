@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.headline2,
               autofocus: true,
-              keyboardType: TextInputType.number,
+              keyboardType: TextInputType.phone,
               inputFormatters: [ 
                 FilteringTextInputFormatter.allow(RegExp('[0-1]')) 
               ],
